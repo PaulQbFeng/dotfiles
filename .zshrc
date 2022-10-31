@@ -102,4 +102,4 @@ PATH="$PATH:$HOME/miniconda3/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 #virtual env
 source /usr/local/bin/virtualenvwrapper.sh
 
-alias dotfiles='/usr/bin/git --git-dir=/Users/paulqbfeng/.dotfiles/ --work-tree=/Users/paulqbfeng'
+alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
