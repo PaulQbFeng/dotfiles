@@ -1,12 +1,12 @@
 # Dotfiles repository
 
+Credit: [Ackama Guide](https://www.ackama.com/what-we-think/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained/)
 ## Prerequisite
 
 Install:
 - zshrc
 - git
 - tmux 
-
 
 
 ## Dotfiles setup on new computer 
