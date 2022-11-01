@@ -1,6 +1,15 @@
 # Dotfiles repository
 
-## Installation 
+## Prerequisite
+
+Install:
+- zshrc
+- git
+- tmux 
+
+
+
+## Dotfiles setup on new computer 
 
 ### 1. Clone the repository
 
