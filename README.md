@@ -7,6 +7,7 @@ Install:
 - zshrc
 - git
 - tmux 
+- tmux plugin manager: [tpm repo](https://github.com/tmux-plugins/tpm)
 
 
 ## Dotfiles setup on new computer 
@@ -19,16 +20,14 @@ Install:
 
 `alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME`
 
+(eventually add it to the `.zshrc`)
+
 ### 3. Ignore untracked files at $HOME
 
-`config config --local status.showUntrackedFiles no`
+`dot config --local status.showUntrackedFiles no`
 
-### 4. Checkout dotfiles
+### 4. Manage dot files
 
-Either all dotfiles 
+`dot add`, `dot commit` and `dot push` dotfiles modifications
 
-`dot checkout`
-
-or file by file
-
-`dot checkout [dotfile_1] [dotfile_2] ...`
+If some dot files are already present, you can overwrite them using `dot restore [dotfile]`
