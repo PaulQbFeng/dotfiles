@@ -24,7 +24,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ### 2. Create an alias to send command to .dotfiles while having the work tree as $HOME
 
-`alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME`
+`alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME'`
 
 (eventually add it to the `.zshrc`)
 
