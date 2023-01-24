@@ -4,11 +4,17 @@ Credit: [Ackama Guide](https://www.ackama.com/what-we-think/the-best-way-to-stor
 ## Prerequisite
 
 Install:
-- zshrc
+- zsh
 - git
-- tmux 
-- tmux plugin manager: [tpm repo](https://github.com/tmux-plugins/tpm)
 
+## tmux
+```
+# mac
+brew install tmux
+
+# tmux plugins
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 
 ## Dotfiles setup on new computer 
 
