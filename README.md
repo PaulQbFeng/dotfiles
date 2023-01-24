@@ -16,6 +16,8 @@ brew install tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
+If the `.tmux.conf` is already added to `$HOME`, run `prefix + I` to install all plugins.
+
 ## Dotfiles setup on new computer 
 
 ### 1. Clone the repository
